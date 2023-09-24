@@ -6,6 +6,6 @@ notificacao = Notification(app_id="Código Python", title="Notificação da Auto
 
 notificacao.set_audio(audio.LoopingAlarm, loop=False)
 
-notificacao.add_actions(label="Aprenda Python", launch="https://hashtagtreinamentos.com/curso-python")
+notificacao.add_actions(label="Aprenda Python", launch="https://github.com/sscolpaert/notificationTool")
 
 notificacao.show()

@@ -1,8 +1,7 @@
 from winotify import Notification, audio
 
-notificacao = Notification(app_id="Código Python", title="Notificação da Automação",
-                           msg="Acabou a zoeira, vai estudar Python, se inscreve no canal",
-                           duration="short")
+notificacao = Notification(app_id="Nota", title="Notificação da automação",
+                           msg="Entra no site ai", duration="short")
 
 notificacao.set_audio(audio.LoopingAlarm, loop=False)
 
